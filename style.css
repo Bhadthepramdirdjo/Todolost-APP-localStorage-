@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.judul{
+    text-align: center;
+    color: #45a049;
+}
+
+hr{
+    height: 5px;
+    background: linear-gradient(to right, #4CAF50, #1b5e20);
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    background: linear-gradient(to bottom right, #2196F3, #00acc1, #0097a7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin-right: 20px;
+}
+
+.form h2 {
+    color: white;
+}
+
+input[type="text"] {
+    width: calc(100% - 78px);
+    padding: 8px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.task-table {
+    background: linear-gradient(to bottom right, #4CAF50, #388e3c, #2e7d32);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.task-table h2 {
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+.delete {
+    color: red;
+    cursor: pointer;
+}
+
+td button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+}
